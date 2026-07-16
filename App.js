@@ -99,3 +99,104 @@ document.querySelector('.shop1.product3').addEventListener('click', POP3);
 document.querySelector('.shop1.product4').addEventListener('click', POP4);
 document.querySelector('.shop1.product5').addEventListener('click', POP5);
 document.querySelector('.shop1.product6').addEventListener('click', POP6);
+function POP7() {
+    alert(
+        "Shop: Shop 2\n\n" +
+        "Product: Product 1\n" +
+        "Product Name: Handmade Sanitary Soap\n" +
+        "Category: Hygiene\n" +
+        "Price: ₹80\n" +
+        "Stock Available: 25 Pieces\n" +
+        "Difficulty: Beginner\n" +
+        "Age Group: All Ages\n" +
+        "Materials Used: Glycerin Soap Base, Essential Oils, Natural Colors\n" +
+        "Features: Skin-friendly, Eco-friendly, Pleasant Fragrance, Handmade\n" +
+        "Purpose: Promotes personal hygiene and demonstrates soap making."
+    );
+}
+
+function POP8() {
+    alert(
+        "Shop: Shop 2\n\n" +
+        "Product: Product 2\n" +
+        "Product Name: Organic Hand Sanitizer\n" +
+        "Category: Hygiene\n" +
+        "Price: ₹120\n" +
+        "Stock Available: 20 Bottles\n" +
+        "Difficulty: Beginner\n" +
+        "Age Group: All Ages\n" +
+        "Materials Used: Aloe Vera Gel, Isopropyl Alcohol, Essential Oils\n" +
+        "Features: Quick Drying, Portable, Pleasant Fragrance\n" +
+        "Purpose: Encourages hand hygiene and cleanliness."
+    );
+}
+
+function POP9() {
+    alert(
+        "Shop: Shop 2\n\n" +
+        "Product: Product 3\n" +
+        "Product Name: Handmade Scented Candles\n" +
+        "Category: Arts & Crafts\n" +
+        "Price: ₹150\n" +
+        "Stock Available: 15 Pieces\n" +
+        "Difficulty: Beginner\n" +
+        "Age Group: 10+\n" +
+        "Materials Used: Soy Wax, Cotton Wick, Essential Oils\n" +
+        "Features: Decorative, Long Burning, Pleasant Fragrance\n" +
+        "Purpose: Demonstrates candle making and creativity."
+    );
+}
+
+function POP10() {
+    alert(
+        "Shop: Shop 2\n\n" +
+        "Product: Product 4\n" +
+        "Product Name: Eco-Friendly Paper Bag\n" +
+        "Category: Environment\n" +
+        "Price: ₹30\n" +
+        "Stock Available: 50 Pieces\n" +
+        "Difficulty: Easy\n" +
+        "Age Group: All Ages\n" +
+        "Materials Used: Recycled Paper, Glue, Ribbon Handles\n" +
+        "Features: Reusable, Lightweight, Eco-Friendly\n" +
+        "Purpose: Reduces plastic use and promotes sustainability."
+    );
+}
+
+function POP11() {
+    alert(
+        "Shop: Shop 2\n\n" +
+        "Product: Product 5\n" +
+        "Product Name: Handmade Greeting Cards\n" +
+        "Category: Arts & Crafts\n" +
+        "Price: ₹60\n" +
+        "Stock Available: 40 Pieces\n" +
+        "Difficulty: Easy\n" +
+        "Age Group: All Ages\n" +
+        "Materials Used: Card Paper, Stickers, Markers, Colored Paper\n" +
+        "Features: Colorful, Custom Designs, Handmade\n" +
+        "Purpose: Encourages creativity and artistic skills."
+    );
+}
+
+function POP12() {
+    alert(
+        "Shop: Shop 2\n\n" +
+        "Product: Product 6\n" +
+        "Product Name: Decorative Flower Pot\n" +
+        "Category: Home Decor\n" +
+        "Price: ₹180\n" +
+        "Stock Available: 12 Pieces\n" +
+        "Difficulty: Intermediate\n" +
+        "Age Group: 10+\n" +
+        "Materials Used: Clay Pot, Acrylic Paint, Decorative Stones\n" +
+        "Features: Hand-Painted, Durable, Attractive Design\n" +
+        "Purpose: Demonstrates painting and gardening creativity."
+    );
+}
+document.querySelector('.shop2.product1').addEventListener('click', POP7);
+document.querySelector('.shop2.product2').addEventListener('click', POP8);
+document.querySelector('.shop2.product3').addEventListener('click', POP9);
+document.querySelector('.shop2.product4').addEventListener('click', POP10);
+document.querySelector('.shop2.product5').addEventListener('click', POP11);
+document.querySelector('.shop2.product6').addEventListener('click', POP12);
