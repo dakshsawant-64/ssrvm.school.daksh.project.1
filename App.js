@@ -146,7 +146,21 @@ function POP9() {
         "Purpose: Demonstrates candle making and creativity."
     );
 }
+let typed = "";
 
+document.addEventListener("keydown", function(event) {
+    typed += event.key.toLowerCase();
+
+    if (typed.endsWith("daksh")) {
+        alert("This was made by Daksh!");
+        typed = "";
+    }
+
+    if (typed.length > 5) {
+        typed = typed.slice(-5);
+    }
+});
+  
 function POP10() {
     alert(
         "Shop: Shop 2\n\n" +
@@ -200,3 +214,17 @@ document.querySelector('.shop2.product3').addEventListener('click', POP9);
 document.querySelector('.shop2.product4').addEventListener('click', POP10);
 document.querySelector('.shop2.product5').addEventListener('click', POP11);
 document.querySelector('.shop2.product6').addEventListener('click', POP12);
+//Function to check credentials and redirect 
+function POP() { // Get the username and password values 
+    let username = document.querySelector('.username').value; let password = document.querySelector('.password').value; 
+    // Check if the credentials are correct 
+    if (username === "daksh" && password === "060513") { 
+        // Redirect to the YouTube 
+         window.location.href = "https://www.youtube.com/shorts/Ay8lynMZ4mE"; 
+    } else { 
+            // Show an alert if the credentials are incorrect 
+            alert("Incorrect username or password."); 
+        } 
+    } // Adding event listener for the button click 
+    document.querySelector('.game').addEventListener('click', POP);
+
