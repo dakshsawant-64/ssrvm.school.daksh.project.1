@@ -6,7 +6,16 @@
     <title>shcool</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="body">
+<body class="body">    
+        <div class="modal">
+        <h1>Log in only for admin</h1> 
+        <label for="username" class="label">Username</label> 
+        <input type="text" placeholder="Username"id="username" class="username"> 
+        <label for="password" class="label">Password</label>
+        <input type="password"placeholder="Password" id="password" class="password">
+    </div> <!-- Background Overlay -->
+    <button type="submit" class="game">log in!</button>
+    <p></p>
     <h1 class="h1,1">shcool project sales</h1>
     <h2>shop 1</h2>
     <h3>products</h3>
@@ -21,12 +30,12 @@ view more details like
 5 Automatic Plant Watering System
 6 Digital Home Security System.
 </p>
-    <button type="button" class="shop1 product1">Product 1</button>
-<button type="button" class="shop1 product2">Product 2</button>
-<button type="button" class="shop1 product3">Product 3</button>
-<button type="button" class="shop1 product4">Product 4</button>
-<button type="button" class="shop1 product5">Product 5</button>
-<button type="button" class="shop1 product6">Product 6</button>
+    <button type="button" class="shop1 product1">Smart Traffic Light System</button>
+<button type="button" class="shop1 product2">Line Following Robot</button>
+<button type="button" class="shop1 product3">Smart Dustbin</button>
+<button type="button" class="shop1 product4">Weather Monitoring Station</button>
+<button type="button" class="shop1 product5">Automatic Plant Watering System</button>
+<button type="button" class="shop1 product6">Digital Home Security System.</button>
 <!-- <button type="button" class="shop1 product7">Product 7</button>
 <button type="button" class="shop1 product8">Product 8</button>
 <button type="button" class="shop1 product9">Product 9</button>
@@ -57,12 +66,12 @@ view more details like
 5 💌 Handmade Greeting Cards
 6 🪴 Decorative Flower Pot
 </p>
-<button type="button" class="shop2 product1">Product 1</button>
-<button type="button" class="shop2 product2">Product 2</button>
-<button type="button" class="shop2 product3">Product 3</button>
-<button type="button" class="shop2 product4">Product 4</button>
-<button type="button" class="shop2 product5">Product 5</button>
-<button type="button" class="shop2 product6">Product 6</button>
+<button type="button" class="shop2 product1">Handmade Sanitary Soap</button>
+<button type="button" class="shop2 product2">Organic Hand Sanitizer</button>
+<button type="button" class="shop2 product3">Handmade Scented Candles</button>
+<button type="button" class="shop2 product4">Eco-Friendly Paper Bag</button>
+<button type="button" class="shop2 product5">Handmade Greeting Cards</button>
+<button type="button" class="shop2 product6">Decorative Flower Pot</button>
 <!-- <button type="button" class="shop1 product7">Product 7</button>
 <button type="button" class="shop1 product8">Product 8</button>
 <button type="button" class="shop1 product9">Product 9</button>
@@ -77,5 +86,21 @@ view more details like
 <h6>Shop 2, Science Exhibition Centre,
 Pune, Maharashtra, India</h6>
     <script src="App.js"></script>
+    <script>
+    let typed = "";
+
+document.addEventListener("keydown", function(event) {
+    typed += event.key.toLowerCase();
+
+    if (typed.endsWith("daksh")) {
+        alert("This was made by Daksh!");
+        typed = "";
+    }
+
+    if (typed.length > 5) {
+        typed = typed.slice(-5);
+    }
+});
+</script>
 </body>
 </html>
